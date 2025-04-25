@@ -10,7 +10,7 @@ const { data: socialMedias } = await useFetch("/api/qa/socialMedia");
       class="flex flex-col sm:flex-row h-32 items-center sm:justify-between justify-evenly container mx-auto"
     >
       <div>
-        <NuxtLink to="/" class="font-ocra text-4xl text-zinc-300">
+        <NuxtLink to="/" class="font-ocra text-4xl text-zinc-300 uppercase">
           MANOEL LOPES<span class="animate-ping-fast">_</span>
         </NuxtLink>
       </div>

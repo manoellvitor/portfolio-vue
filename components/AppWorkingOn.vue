@@ -3,13 +3,7 @@ const { data: projects } = await useFetch("/api/qa/future-projects");
 </script>
 
 <template>
-  <div class="p-4 container flex mx-auto">
-    <h1 class="font-ocra text-2xl text-blue-500">
-      <span class="text-zinc-300">{{ "<" }}</span
-      >Working On
-      <span class="text-zinc-300">{{ "/>" }}</span>
-    </h1>
-  </div>
+  <UiSectionTitle color="blue" text="Working On" />
   <section class="flex flex-col container mx-auto">
     <div
       class="md:grid-row-2 mt-2 grid gap-3 lg:grid-flow-col p-4 lg:max-w-[50%] mx-auto"

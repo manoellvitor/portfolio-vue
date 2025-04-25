@@ -1,11 +1,5 @@
 <template>
-  <div class="container flex mx-auto p-4">
-    <h1 class="font-ocra text-2xl text-green-700">
-      <span class="text-zinc-300">{{ "<" }}</span
-      >About Manoel
-      <span class="text-zinc-300">{{ "/>" }}</span>
-    </h1>
-  </div>
+  <UiSectionTitle color="green" text="About Manoel" />
   <section class="container flex flex-col lg:flex-row mx-auto p-4">
     <div
       class="flex flex-col lg:flex-row items-center gap-10 mx-auto container justify-evenly"
