@@ -1,8 +1,7 @@
 <template>
-  <div>
+  <div class="container mx-auto">
     <AppAbout />
     <AppProjects />
     <AppWorkingOn />
-    <AppFooter />
   </div>
 </template>
