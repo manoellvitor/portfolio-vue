@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-const { data: socialMedias } = await useFetch("/api/qa/socialMedia");
+const { data: socialMedias } = await useFetch("/api/qa/social-media");
 </script>
 
 <template>
-  <header
+  <nav
     class="sticky left-0 top-0 overflow-hidden border-b-8 border-lime-700 bg-zinc-950"
   >
     <div
@@ -14,7 +14,7 @@ const { data: socialMedias } = await useFetch("/api/qa/socialMedia");
           MANOEL LOPES<span class="animate-ping-fast">_</span>
         </NuxtLink>
       </div>
-      <nav>
+      <div>
         <div>
           <ul class="flex gap-4">
             <li
@@ -40,9 +40,9 @@ const { data: socialMedias } = await useFetch("/api/qa/socialMedia");
             </li>
           </ul>
         </div>
-      </nav>
+      </div>
     </div>
-  </header>
+  </nav>
 </template>
 
 <style scoped>

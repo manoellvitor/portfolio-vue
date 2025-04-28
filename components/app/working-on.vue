@@ -11,7 +11,7 @@ const { data: projects } = await useFetch("/api/qa/future-projects");
       <UiBlueProjectCard
         v-for="project in projects"
         :key="project.id"
-        :project-data="project"
+        :project="project"
       />
     </div>
   </section>

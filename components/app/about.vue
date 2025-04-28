@@ -23,6 +23,8 @@
           src="/images/manoel-lopes.jpg"
           alt="Manoel Lopes, Preparing his hockey stick for a game!"
           class="h-80 w-80 rounded-full object-cover ring-4 ring-cyan-300"
+          format="webp"
+          densities="1x"
         />
       </div>
     </div>
