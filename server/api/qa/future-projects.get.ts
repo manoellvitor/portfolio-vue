@@ -92,12 +92,12 @@ export default defineEventHandler(() => {
 				{
 					id: 1,
 					type: "Live Demo",
-					url: "https://test-tracker-snowy.vercel.app/",
+					url: "https://test-tracker-nuxt.vercel.app/",
 				},
 				{
 					id: 2,
 					type: "Git Repository",
-					url: "https://github.com/manoellvitor/test-tracker",
+					url: "https://github.com/manoellvitor/test-tracker-nuxt",
 				},
 			],
 		},
