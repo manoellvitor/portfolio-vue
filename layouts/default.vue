@@ -1,5 +1,5 @@
 <template>
-	<div class="font-courier text-xl bg-zinc-950 text-zinc-300 flex flex-col">
+	<div class="font-courier text-xl bg-zinc-950 text-zinc-300">
 		<AppNavBar />
 		<main>
 			<slot />
