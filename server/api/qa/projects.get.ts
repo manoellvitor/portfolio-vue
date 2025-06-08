@@ -1,144 +1,86 @@
 export default defineEventHandler(() => {
-  const projects = [
-    {
-      id: 1,
-      name: "Trainer",
-      description:
-        "This website is designed to help personal trainers connect with their clients.",
-      image: "",
-      stack: [
-        {
-          id: 1,
-          name: "React",
-          icon: "mdi:react",
-        },
-        {
-          id: 2,
-          name: "Tailwind CSS",
-          icon: "mdi:tailwind",
-        },
-        {
-          id: 3,
-          name: "TypeScript",
-          icon: "mdi:language-typescript",
-        },
-        {
-          id: 4,
-          name: "Vite",
-          icon: "simple-icons:vite",
-        },
-      ],
-      urls: [
-        {
-          id: 1,
-          type: "Live Demo",
-          url: "https://personal-trainer-mu.vercel.app",
-        },
-        {
-          id: 2,
-          type: "Git Repository",
-          url: "https://github.com/manoellvitor/personal-trainer",
-        },
-      ],
-    },
-    {
-      id: 2,
-      name: "Tests Tracking",
-      description:
-        "Application to get all data from Excel Sheets and show it in a user friendly way.",
-      image: "",
-      stack: [
-        {
-          id: 1,
-          name: "Node JS",
-          icon: "mdi:nodejs",
-        },
-        {
-          id: 2,
-          name: "HTML 5",
-          icon: "mdi:language-html5",
-        },
-        {
-          id: 3,
-          name: "CSS 3",
-          icon: "mdi:language-css3",
-        },
-        {
-          id: 4,
-          name: "Bootstrap",
-          icon: "mdi:bootstrap",
-        },
-        {
-          id: 5,
-          name: "Postgre SQL",
-          icon: "cib:postgresql",
-        },
-      ],
-      urls: [
-        {
-          id: 1,
-          type: "Live Demo",
-          url: "https://tests-tracker.onrender.com",
-        },
-        {
-          id: 2,
-          type: "Git Repository",
-          url: "https://github.com/manoellvitor/tests-tracking",
-        },
-      ],
-    },
-    {
-      id: 3,
-      name: "2do",
-      description:
-        "This simple todo web application was developed using Next.js, Prisma and Tailwindcss.",
-      image: "",
-      stack: [
-        {
-          id: 1,
-          name: "Next",
-          icon: "teenyicons:nextjs-outline",
-        },
-        {
-          id: 2,
-          name: "React",
-          icon: "mdi:react",
-        },
-        {
-          id: 3,
-          name: "Tailwind CSS",
-          icon: "mdi:tailwind",
-        },
-        {
-          id: 4,
-          name: "TypeScript",
-          icon: "mdi:language-typescript",
-        },
-        {
-          id: 5,
-          name: "Postgre SQL",
-          icon: "cib:postgresql",
-        },
-        {
-          id: 6,
-          name: "Prisma",
-          icon: "simple-icons:prisma",
-        },
-      ],
-      urls: [
-        {
-          id: 1,
-          type: "Live Demo",
-          url: "https://2do-rho.vercel.app",
-        },
-        {
-          id: 2,
-          type: "Git Repository",
-          url: "https://github.com/manoellvitor/2do",
-        },
-      ],
-    },
-  ];
+	const projects = [
+		{
+			id: 1,
+			name: "Real World E2E Testing",
+			description:
+        "This project is a real world E2E testing example using Playwright and TypeScript, with a focus on testing the application's core functionality. The tests are run in a CI/CD pipeline using GitHub Actions.",
+			image: "",
+			stack: [
+				{
+					id: 1,
+					name: "Playwright",
+					icon: "devicon-plain:playwright",
+				},
+				{
+					id: 2,
+					name: "TypeScript",
+					icon: "mdi:language-typescript",
+				},
+				{
+					id: 3,
+					name: "GitHub Actions",
+					icon: "simple-icons:githubactions",
+				},
+				{
+					id: 4,
+					name: "Node.js",
+					icon: "mdi:nodejs",
+				},
+			],
+			urls: [
+				{
+					id: 1,
+					type: "Live Demo",
+					url: "https://manoellvitor.github.io/realworld-assesment/",
+				},
+				{
+					id: 2,
+					type: "Git Repository",
+					url: "https://github.com/manoellvitor/realworld-assesment",
+				},
+			],
+		}, {
+			id: 2,
+			name: "Zombie Plus E2E Testing",
+			description:
+        "Automated testing project for the Zombie Plus system. Playwright is an open-source tool developed by Microsoft that revolutionizes web system test automation, offering an effective and highly reliable approach.",
+			image: "",
+			stack: [
+				{
+					id: 1,
+					name: "Playwright",
+					icon: "devicon-plain:playwright",
+				},
+				{
+					id: 2,
+					name: "Javascript",
+					icon: "mdi:language-javascript",
+				},
+				{
+					id: 3,
+					name: "Node.js",
+					icon: "mdi:nodejs",
+				}, {
+					id: 4,
+					name: "Postgre SQL",
+					icon: "cib:postgresql",
+				},
+			],
+			urls: [
+				{
+					id: 1,
+					type: "Live Demo",
+					url: "https://manoellvitor.github.io/realworld-assesment/",
+				},
+				{
+					id: 2,
+					type: "Git Repository",
+					url: "https://github.com/manoellvitor/realworld-assesment",
+				},
+			],
+		},
+	];
 
-  return projects;
+	return projects;
 });
