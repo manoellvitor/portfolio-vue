@@ -71,12 +71,12 @@ export default defineEventHandler(() => {
 				{
 					id: 1,
 					type: "Live Demo",
-					url: "https://manoellvitor.github.io/realworld-assesment/",
+					url: "https://github.com/manoellvitor/e2e-pw-zombieplus",
 				},
 				{
 					id: 2,
 					type: "Git Repository",
-					url: "https://github.com/manoellvitor/realworld-assesment",
+					url: "https://github.com/manoellvitor/e2e-pw-zombieplus",
 				},
 			],
 		},
