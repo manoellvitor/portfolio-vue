@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { data: socialMedias } = await useFetch("/api/qa/social-media");
+const { data: socialMedias } = await useFetch("/api/social-media");
 </script>
 
 <template>
